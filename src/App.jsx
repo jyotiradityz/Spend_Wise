@@ -10,10 +10,10 @@ function App() {
     <>
     <div className='bg'></div>
     <div className="App">
-      <button className='moneyAdd'>Add Money</button><br/>
-      <button className='moneyrem'>Check The Balance</button><br/>
-      <button className='prevlog'>Check the logs</button><br></br>
-      <button className='moneydeduct'>Money Deducted</button><br/>
+      <button className='btn-three'>Add Money</button><br/>
+      <button className='btn-three'>Check The Balance</button><br/>
+      <button className='btn-three'>Check the logs</button><br></br>
+      <button className='btn-three'>Money Deducted</button><br/>
     </div>
     </>
   )
