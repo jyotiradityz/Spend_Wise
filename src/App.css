@@ -44,6 +44,9 @@
 .moneyAdd{
   margin: 1rem;
 }
+.moneyAdd :hover{
+  background-color: aqua;
+}
 .moneydeduct{
   margin: 1rem;
 }
