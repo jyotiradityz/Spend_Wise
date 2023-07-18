@@ -1,19 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Navbar from './Components/Navbar'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className='bg'></div>
+    {/* <Navbar/>  */}
     <div className="App">
       <button className='btn-three'>Add Money</button><br/>
+      <button className='btn-three'>Money Deduction</button><br/>
       <button className='btn-three'>Check The Balance</button><br/>
       <button className='btn-three'>Check the logs</button><br></br>
-      <button className='btn-three'>Money Deducted</button><br/>
     </div>
     </>
   )

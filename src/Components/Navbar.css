@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    color: white;   
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  
+  .navbar__left {
+    
+    display: flex;
+  }
+  
+  .navbar__right {
+    width: 10px;
+    height: 10px;
+    max-height: min-content;
+    margin-left: 90rem; 
+  }
+  
+  .navbar__link {
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .img{
+    width: 10px;
+    
+  }
+  
+  .navbar__link:hover {
+    color: #15da1b;
+  }
+  
